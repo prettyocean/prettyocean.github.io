@@ -1,0 +1,386 @@
+body{
+    font-family: "微軟正黑體", "Microsoft JhengHei", "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "標楷體", DFKai-SB, sans-serif;
+
+}
+ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    background-color: rgba(255,255,255,0.92);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.nav-menu li {
+    list-style: none;
+}
+
+.nav-menu>li {
+    display: inline-block;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.product {
+    position: relative;
+}
+
+.product-list {
+    position: absolute;
+    display: none;
+    padding: 10px 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    white-space: nowrap;
+    top: 36px;
+    background-color: white;
+    z-index: 2;
+}
+
+.product.active .product-list {
+    display: block;
+}
+
+.sec1pic {
+    background-image: url("img/sec1pic.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding-top: 180px;
+}
+
+
+.title {
+    padding: 30px;
+}
+
+.p1 {
+    font-size: 24px;
+    padding: 20px 30px;
+}
+
+h1,
+h4 {
+    font-weight: bold;
+}
+
+#nothing1 {
+    width: 100%;
+    height: 180px;
+}
+
+#section2 {
+    width: 100%;
+    position: relative;
+    letter-spacing: 1px;
+
+}
+
+#nothing2 {
+    width: 100%;
+    height:180px;
+}
+
+#section3 {
+    width: 100%;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+#nothing3 {
+    width: 100%;
+    height: 180px;
+}
+
+#section4 {
+    width: 100%;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.boxL1 {
+    width: 100%;
+}
+
+.boxR1 {
+    font-size: 20px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.boxL2 {
+    height: 50vh;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.boxR2 {
+    width: 100%;
+}
+
+.boxL3 {
+    width: 100%;
+}
+
+.boxR3 {
+    height: 50vh;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.boxL4 {
+    width: 100%;
+    height: 50vh;
+    font-size: 20px;
+}
+.boxL4 h1{
+    margin-bottom: 50px;
+}
+.boxL4 h4{
+    margin-bottom: 20px;
+}
+.boxR4 {
+    position: relative;
+    top: 55px;
+    width: 100%;
+    height: 50vh;
+    font-size: 20px;
+}
+.boxR4 h4{
+    margin-bottom: 20px;
+}
+.boxR4 ul{
+    margin-bottom: 20px;
+}
+
+#nothing4 {
+    width: 100%;
+    height: 180px;
+}
+
+.container5 {
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+.sec5pic {
+    background-image: url("img/canoe.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+}
+
+#container6 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    position: relative;
+    font-size: 22px;
+    font: bold;
+    padding: 30px;
+    letter-spacing: 4px;
+}
+
+.facebook {
+    float: left;
+}
+
+.phone {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.instagram {
+    float: right;
+}
+
+.copyright {
+    width: 100%;
+    background-color: #6D91A9;
+    font-size: 10px;
+    color: white;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.copyright p {
+    margin-bottom: 0;
+}
+
+
+
+@media screen and (max-width:767px) {
+    nav {
+        display: block;
+    }
+    .nav-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .nav-menu {
+        width: 100%;
+        text-align: center;
+    }
+    .sec1pic {
+        height: auto;
+    }
+    .container1 {
+        width: auto;
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+    .title {
+        position: static;
+    }
+    .title h1 {
+        font-size: 22px;
+    }
+    .p1 {
+        font-size: 18px;
+        position: static;
+        line-height: 39px;
+    }
+
+    .boxL1 {
+        width: auto;
+        padding: 20px;
+    }
+
+    .boxR1 h1 {
+        font-size: 30px;
+    }
+    .boxR1 h3 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .boxR1 {
+        position: relative;
+        height: 50vh;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .boxR2 {
+        width: auto;
+        padding: 20px;
+    }
+
+    .boxL2 h1 {
+        font-size: 30px;
+    }
+    .boxL2 h3 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .boxL2 {
+        height: auto;
+        font-size: 15px;
+        margin-top: 30px;
+        padding-left: 20px;
+    }
+   
+    .boxL3 {
+        width: auto;
+        padding: 20px;
+    }
+
+    .boxR3 h1 {
+        font-size: 30px;
+    }
+    .boxR3 h3 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .boxR3 {
+        height: 50vh;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .sec5pic {
+        height: auto;
+    }
+    .boxL4 h1 {
+        font-size: 24px;
+        margin-bottom:15px;
+    }
+    .boxL4 .boxR4 h4 {
+        font-size: 18px; 
+        margin-bottom: 15px;
+    }
+    .boxL4 .boxR4 ul{
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .boxL4{
+        height: auto;
+    }
+    .boxR4{
+        top:25px;
+        height: auto;
+    }
+    #container6{
+        width: auto;
+    }
+    .icon{
+        width: 25px;
+        height: 25px;
+    }
+    .facebook{
+        position: relative;
+        float: none;
+        width: 100%;
+        font-size: 14px;
+        padding-bottom: 3px;
+    }
+    .phone{
+        position: static;
+        float: none;
+        width: 100%;
+        transform: translateX(0);
+        font-size: 14px;
+        padding-bottom: 3px;
+    }
+    .instagram{
+        position: relative;
+        float: none;
+        width: 100%; 
+        font-size: 14px;
+        padding-bottom: 3px;
+    }
+   
+    #nothing1,#nothing2, #nothing3, #nothing4{
+        height: 204px;
+    } 
+    .copyright{
+        letter-spacing: 2px;
+    }
+    #logo{
+        transition: 1s;
+    }
+    
+    img.small{
+        height: 80px;
+    }
+}
