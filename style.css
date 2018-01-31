@@ -402,4 +402,7 @@ hr{
     img.small{
         height: 80px;
     }
+    #line1 #line2{
+        padding: 40px 0;
+    }
 }
