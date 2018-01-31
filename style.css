@@ -15,14 +15,20 @@ nav {
     z-index: 99;
     background-color: rgba(255,255,255,0.92);
 }
+
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #6D91A9;
 }
 .nav-menu {
     padding-left: 0;
     margin-bottom: 0;
+}
+
+.nav-menu a{
+    color: #6D91A9
 }
 
 .nav-menu li {
@@ -50,6 +56,9 @@ nav {
     top: 36px;
     background-color: white;
     z-index: 2;
+}
+.product-list a{
+    font-size: 18px;
 }
 
 .product.active .product-list {
