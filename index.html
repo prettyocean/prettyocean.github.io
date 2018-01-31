@@ -325,6 +325,7 @@
     <script>
 
         $(window).scroll(function () {
+            $(".product").removeClass("active");
             var scroll_height = $(window).scrollTop();
             //console.log(scroll_height);
             if (scroll_height > 0) {
