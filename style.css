@@ -97,7 +97,6 @@ h4 {
     width: 100%;
     position: relative;
     letter-spacing: 1px;
-
 }
 
 #nothing2 {
@@ -166,7 +165,7 @@ h4 {
 }
 .boxR4 {
     position: relative;
-    top: 55px;
+    top: 40px;
     width: 100%;
     
     font-size: 20px;
@@ -191,7 +190,7 @@ h4 {
 .sec5pic {
     background-image: url("img/canoe.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 0 65%;
     width: 100%;
     position: relative;
 }
