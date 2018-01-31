@@ -68,7 +68,6 @@ nav {
     background-image: url("img/sec1pic.jpg");
     background-size: cover;
     width: 100%;
-    min-height: 100vh;
     position: relative;
     padding-top: 180px;
 }
@@ -76,6 +75,7 @@ nav {
 
 .title {
     padding: 30px;
+    padding-top: 80px;
 }
 
 .p1 {
