@@ -239,7 +239,7 @@ h4 {
 }
 
 #line1 #line2{
-    padding: 40px 0;
+    padding: 80px 0;
 }
 
 hr{
@@ -401,6 +401,6 @@ hr{
         height: 80px;
     }
     #line1 #line2{
-        padding: 40px 0;
+        padding: 50px 0;
     }
 }
