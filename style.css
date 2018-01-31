@@ -269,6 +269,7 @@ hr{
         height: auto;
         padding-top: 15px;
         padding-bottom: 0px;
+        padding-left: 0;
     }
     .title {
         position: static;
@@ -280,7 +281,7 @@ hr{
         font-size: 18px;
         position: static;
         line-height: 39px;
-    }
+      }
 
     .boxL1 {
         width: auto;
