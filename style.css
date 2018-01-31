@@ -297,7 +297,6 @@ hr{
     }
     .boxR1 {
         position: relative;
-        height: 50vh;
         font-size: 15px;
         margin-top: 30px;
     }
@@ -333,7 +332,6 @@ hr{
         font-weight: bold;
     }
     .boxR3 {
-        height: 50vh;
         font-size: 15px;
         margin-top: 30px;
     }
