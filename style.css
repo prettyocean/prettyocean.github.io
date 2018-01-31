@@ -386,8 +386,13 @@ hr{
         padding-bottom: 3px;
     }
    
-    #nothing1, #nothing4, #nothing2, #nothing3{
+    #nothing2, #nothing3{
         height: 0px;
+        transform: translateY(-100px);
+    }
+    #nothing1, #nothing4{
+        height: 0px;
+        transform: translateY(-100px);
     } 
     
     .copyright{
