@@ -60,7 +60,6 @@ nav {
 .product-list a{
     font-size: 18px;
 }
-
 .product.active .product-list {
     display: block;
 }
@@ -239,7 +238,7 @@ h4 {
     margin-bottom: 0;
 }
 
-.line{
+#line1 #line2{
     padding: 40px 0;
 }
 
@@ -261,7 +260,7 @@ hr{
         text-align: center;
     }
     .nav-menu li {
-        font-size: 18px;
+        font-size: 17px;
     }
     .sec1pic {
         height: auto;
