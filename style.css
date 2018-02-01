@@ -374,12 +374,7 @@ hr{
         font-size: 14px;
         padding-bottom: 3px;
     }
-   
-    #nothing1, #nothing2, #nothing3, #nothing4{
-        height: 0px;
-        transform: translateY(-100px);
-    }
-       
+        
     .copyright{
         letter-spacing: 2px;
     }
