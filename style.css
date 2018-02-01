@@ -88,21 +88,16 @@ h4 {
     font-weight: bold;
 }
 
-#nothing1 {
-    width: 100%;
-    height: 180px;
-}
+
 
 #section2 {
     width: 100%;
     position: relative;
     letter-spacing: 1px;
+    padding-top: 60px;
 }
 
-#nothing2 {
-    width: 100%;
-    height:180px;
-}
+
 
 #section3 {
     width: 100%;
@@ -110,15 +105,13 @@ h4 {
     letter-spacing: 1px;
 }
 
-#nothing3 {
-    width: 100%;
-    height: 180px;
-}
+
 
 #section4 {
     width: 100%;
     position: relative;
     letter-spacing: 1px;
+    padding-bottom: 3rem;
 }
 
 .boxL1 {
@@ -177,13 +170,8 @@ h4 {
     margin-bottom: 20px;
 }
 
-#nothing4 {
-    width: 100%;
-    height: 180px;
-}
-
 .container5 {
-    padding: 20px;
+    padding: 80px 20px;
     letter-spacing: 2px;
 }
 
@@ -235,14 +223,14 @@ h4 {
 
 .copyright p {
     margin-bottom: 0;
+    padding: 5px;
 }
 
-#line1 #line2{
-    padding: 80px 0;
-}
 
 hr{
     border-top:none; 
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 
